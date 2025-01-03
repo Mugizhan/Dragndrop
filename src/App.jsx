@@ -6,7 +6,7 @@ const App = () => {
 
   return (
     <div>
-      <BrowserRouter basename='/dragndrop/'>
+      <BrowserRouter basename='/Dragndrop/'>
       <Routes>
         <Route path='/' element={<Dragndrop/>}/>
       </Routes>
